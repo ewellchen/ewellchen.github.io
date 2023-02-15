@@ -4,7 +4,7 @@ date: 2022-5-23 15:59:00-0400
 inline: true
 ---
 
-PRSNet has been published on Optics Express.
+<a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-11-18856&id=472858">PRSNet</a> has been published on Optics Express.
 
 <!-- ---
 layout: post
