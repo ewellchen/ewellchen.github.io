@@ -1,27 +1,27 @@
 source 'https://rubygems.org'
+#gem "github-pages", group: :jekyll_plugins
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
+  gem 'jekyll', "~> 4.2.0"
     gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
     gem 'jekyll-github-metadata'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
-    gem 'jekyll-link-attributes'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem "bibtex-ruby"
     gem 'webrick'
-    gem 'htmlcompressor'
-    gem 'htmlbeautifier'
-    gem 'nokogiri'
-    gem 'feedjira'
-    gem 'httparty'
-    gem 'faraday-retry'
 end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem "ffi", "~> 1.15"
