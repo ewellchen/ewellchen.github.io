@@ -1,27 +1,38 @@
-source "https://gems.ruby-china.com/"
+source 'https://gems.ruby-china.com'
+
+gem 'jekyll'
+
+# Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
+    gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
-    gem 'jekyll-github-metadata'
+    gem 'jekyll-get-json'
     gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
-    gem 'jekyll-link-attributes'
+    gem 'jekyll-tabs'
+    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'unicode_utils'
-    gem 'webrick'
-    gem 'htmlcompressor'
-    gem 'htmlbeautifier'
-    gem 'nokogiri'
+
+    gem 'classifier-reborn'  # used for content categorization during the build
+end
+
+# Gems for development or external data fetching (outside :jekyll_plugins)
+group :other_plugins do
+    gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
-    gem 'faraday-retry'
+    gem 'observer'       # used by jekyll-scholar
+    gem 'ostruct'        # used by jekyll-twitter-plugin
+    # gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    # gem 'webrick' -- should be already installed by jekyll
 end

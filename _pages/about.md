@@ -7,15 +7,23 @@ subtitle:
 profile:
   align: right
   image: yiwei.jpg
-  image_circular: false
-  image_width: "auto"    # 固定宽度（例如 200 像素）
-  # image_height: "auto"  # 高度自动调整（可选）
-  address: >
+  image_circular: false # crops the image to make it circular
+  more_info: >
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
+
 {% raw %}
 <div class="social-links">
 <a href="https://www.researchgate.net/profile/Yiwei-Chen-19" target="_blank" rel="noopener noreferrer" title="ResearchGate">
