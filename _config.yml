@@ -6,7 +6,7 @@ title: Yiwei Chen (陈逸威) # the website title (if blank, full name will be u
 first_name: Yiwei
 middle_name:
 last_name: Chen
-email: yiweichen@ynu.edu.cn
+email: ewell@zju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
