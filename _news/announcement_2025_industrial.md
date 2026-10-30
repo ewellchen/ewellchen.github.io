@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-09-01
+date: 2025-09-26
 inline: true
 topic: industrial
 summary: Transformer-based industrial oscillation detection at CAC

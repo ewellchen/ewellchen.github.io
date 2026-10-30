@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-10-29
+date: 2026-10-09
 inline: true
 topic: imaging
 summary: Sensor-aware single-photon imaging paper in Optics Express

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-6-4 15:59:00-0400
+date: 2023-06-04
 inline: true
 topic: imaging
 summary: Single-photon image super-resolution at ICASSP

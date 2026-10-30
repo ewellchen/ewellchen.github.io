@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-5-29 15:59:00-0400
+date: 2023-05-29
 inline: true
 topic: imaging
 summary: Compact single-photon 3D imager published in IEEE TIM

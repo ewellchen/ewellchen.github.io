@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-06-01
+date: 2025-10-01
 inline: true
 topic: quantum
 summary: Quantum-inspired multimodal fusion in Neurocomputing

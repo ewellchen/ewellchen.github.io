@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-10-27
+date: 2026-08-01
 inline: true
 topic: industrial
 summary: Industrial soft-sensing research at IFAC World Congress

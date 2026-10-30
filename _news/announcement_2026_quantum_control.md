@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-10-30
+date: 2026-10-22
 inline: true
 topic: quantum
 summary: Quantum state-transfer paper in Physical Review A
