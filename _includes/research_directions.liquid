@@ -1,0 +1,30 @@
+<section class="research-directions" aria-labelledby="research-directions-heading">
+  <h2 id="research-directions-heading">research directions</h2>
+  {% for direction in site.data.research_directions %}
+    <details class="research-direction" {% if forloop.first %}open{% endif %}>
+      <summary>{{ direction.title }}</summary>
+      <p>{{ direction.description }}</p>
+      <div class="research-direction-links">
+        <div>
+          <h3>Related publications</h3>
+          <ul>
+            {% for paper in direction.papers %}
+              <li><a href="{{ '/publications/' | relative_url }}#{{ paper.key }}">{{ paper.title }}</a> <span>({{ paper.year }})</span></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% assign related_news = site.news | where: 'topic', direction.id | sort: 'date' | reverse %}
+        {% if related_news.size > 0 %}
+          <div>
+            <h3>Related news</h3>
+            <ul>
+              {% for item in related_news limit: 2 %}
+                <li><a href="{{ '/news/' | relative_url }}#{{ item.slug }}">{{ item.date | date: '%b %Y' }}: {{ item.summary }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </div>
+    </details>
+  {% endfor %}
+</section>

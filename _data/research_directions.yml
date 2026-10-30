@@ -1,0 +1,57 @@
+- id: quantum
+  title: Quantum Machine Learning
+  description: Quantum-inspired models, quantum-state analysis, and efficient machine learning methods.
+  papers:
+    - key: chen2026hamiltonian
+      title: Hamiltonian-induced error-channel control for quantum state transfer
+      year: 2026
+    - key: yan2026quantum
+      title: Quantum-inspired neural networks with stochastic dynamics
+      year: 2026
+    - key: yan2025quantum
+      title: Quantum-inspired multimodal fusion with Lindblad master equation
+      year: 2025
+    - key: chen2021quantum
+      title: Quantum language model with entanglement embedding
+      year: 2023
+- id: imaging
+  title: Single-Photon & Computational Imaging
+  description: Photon-efficient 3D sensing, image reconstruction, MRI, and cross-modal image analysis.
+  papers:
+    - key: yin2026repair
+      title: Agentic planning for image restoration
+      year: 2026
+    - key: yin2026aosnet
+      title: Trustworthy image super-resolution
+      year: 2026
+    - key: chen2026sensor
+      title: Sensor-aware physical modelling for single-photon imaging
+      year: 2026
+    - key: chen2023single
+      title: Single-photon image super-resolution via self-supervised learning
+      year: 2023
+    - key: chen2023compact
+      title: A compact upconversion single-photon imager
+      year: 2023
+    - key: chen2022deep
+      title: Deep domain adversarial adaptation for photon-efficient imaging
+      year: 2022
+- id: industrial
+  title: Industrial Signal Processing
+  description: Data-driven monitoring, diagnosis, prediction, and control for industrial processes.
+  papers:
+    - key: lang2026visual
+      title: Visual-frequency fusion for industrial oscillation monitoring
+      year: 2026
+    - key: liu2026wavelet
+      title: Wavelet fusion for industrial particle image analysis
+      year: 2026
+    - key: yang2025oscillation
+      title: Oscillation detection for industrial process control loops
+      year: 2025
+    - key: gong2025root
+      title: Root cause diagnosis of plant-wide oscillations
+      year: 2025
+    - key: xu2025pid
+      title: Performance optimization of industrial PID control loops
+      year: 2025

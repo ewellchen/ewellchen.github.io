@@ -9,14 +9,18 @@ profile:
   image: yiwei.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Associate Professor</p>
+    <p>Yunnan-Malaya Institute (School of Engineering)</p>
+    <p>Yunnan University</p>
+    <p>Room 2306</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false
+  limit: 6
 
 latest_posts:
   enabled: false
@@ -29,22 +33,25 @@ latest_posts:
 <a href="https://www.researchgate.net/profile/Yiwei-Chen-19" target="_blank" rel="noopener noreferrer" title="ResearchGate">
   <i class="fab fa-researchgate"></i> ResearchGate
 </a>
-<a href="https://scholar.google.co.jp/citations?user=gEYreuYAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+<a href="https://scholar.google.co.uk/citations?user=gEYreuYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer" title="Google Scholar">
   <i class="fas fa-graduation-cap"></i> Google Scholar
+</a>
+<a href="https://orcid.org/0000-0001-5739-2429" target="_blank" rel="noopener noreferrer" title="ORCID">
+  <i class="ai ai-orcid"></i> ORCID
 </a>
 <a href="https://github.com/ewellchen" target="_blank" rel="noopener noreferrer" title="GitHub">
   <i class="fab fa-github"></i> GitHub
+</a>
+<a href="http://www.ymi.ynu.edu.cn/info/1033/1281.htm" target="_blank" rel="noopener noreferrer" title="Chinese faculty profile">
+  <i class="fas fa-university"></i> 中文主页
 </a>
 <a href="mailto:yiweichen@ynu.edu.cn" title="Email">
   <i class="fas fa-envelope"></i> Email
 </a>
 </div>
 {% endraw %}
-<br>
-I am currently working at the School of Engineering, Yunnan University in Kunming, China. Before this, I worked as a Postdoctoral Research Associate at Heriot-Watt University in Edinburgh, UK, where I was a member of the [BASP](https://basp.site.hw.ac.uk/) (Biomedical and Astronomical Signal Processing) lab, supervised by Prof. [Yves Wiaux](https://basp.site.hw.ac.uk/prof-yves-wiaux/). I received both my bachelor's and Ph.D. degrees in Control Science and Engineering from Zhejiang University, supervised by Prof. [Yu Pan](https://person.zju.edu.cn/ypan#0).
+I am an **Associate Professor** and **Master's Supervisor** at Yunnan University. My group develops data-efficient methods for **quantum machine learning**, **single-photon and computational imaging**, and **industrial signal processing**.
 
-My research focuses on **computational imaging algorithms and systems** with various imaging modalities, including single-photon imaging (SPI), magnetic resonance imaging (MRI), and computed tomography (CT). My long-term goal is to develop **highly adaptive intelligent sensing systems** capable of robust performance in complex and resource-constrained environments.
+I received my B.Eng. (2018) and Ph.D. in Control Science and Engineering (2023) from Zhejiang University, then worked on computational imaging as a postdoctoral researcher at Heriot-Watt University in Edinburgh. I lead projects supported by the NSFC and Yunnan Province; my [CV]({{ '/cv/' | relative_url }}) provides more detail.
 
-In addition, I am actively exploring **quantum machine learning**, including quantum-inspired algorithms and quantum circuit design, with an eye toward practical applications in industry.
-
-For inquiries or collaboration opportunities, feel free to contact me at ewell(at)zju.edu.cn or yiweichen(at)ynu.edu.cn.
+My work has appeared in *Physical Review A*, *Optics Express*, *IEEE Transactions on Cybernetics*, *IEEE Transactions on Instrumentation and Measurement*, and other journals and conferences. I received the IOP Trusted Reviewer certification and the 2025 IEEE TIM Outstanding Reviewer honor.

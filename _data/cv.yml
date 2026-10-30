@@ -2,96 +2,133 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yiwei Chen
+    - name: Position
+      value: Ph.D., Associate Professor, Master's Supervisor
+    - name: Affiliation
+      value: Yunnan-Malaya Institute (School of Engineering), Yunnan University
+    - name: Office
+      value: Room 2306, Yunnan-Malaya Institute (School of Engineering), Yunnan University, Kunming, China
+    - name: Email
+      value: yiweichen(at)ynu.edu.cn
+    - name: Google Scholar
+      value: <a href="https://scholar.google.co.uk/citations?user=gEYreuYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar profile</a>
+    - name: ResearchGate
+      value: <a href="https://www.researchgate.net/profile/Yiwei-Chen-19">ResearchGate profile</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0001-5739-2429">0000-0001-5739-2429</a>
+    - name: Chinese Faculty Profile
+      value: <a href="http://www.ymi.ynu.edu.cn/info/1033/1281.htm">Yunnan University</a>
+    - name: Research Areas
+      value: Quantum machine learning; single-photon and computational imaging; industrial signal processing
 
-- title: Education
+- title: Appointments and Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Associate Professor
+      institution: Yunnan-Malaya Institute (School of Engineering), Yunnan University
+      year: 2025.11-present
+    - title: Lecturer
+      institution: Yunnan-Malaya Institute (School of Engineering), Yunnan University
+      year: 2025.03-2025.11
+    - title: Postdoctoral Research Associate
+      institution: Institute of Signals, Sensors and Systems, School of Engineering and Physical Sciences, Heriot-Watt University
+      year: 2023.09-2024.10
+    - title: Ph.D. in Control Science and Engineering
+      institution: Zhejiang University
+      year: 2018.09-2023.06
+    - title: B.S. in Automation
+      institution: Zhejiang University
+      year: 2014.09-2018.06
 
-- title: Experience
+- title: Research Projects
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: National Natural Science Foundation of China Young Scientists Fund, Category C
+      institution: Project No. 62503415
+      year: 2026.01-2028.12
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Principal Investigator.
+    - title: Yunnan Provincial Basic Research Program, General Program
+      institution: Yunnan Province
+      year: 2026.06-2029.06
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Principal Investigator.
+    - title: Open Research Project of the State Key Laboratory of Industrial Control Technology
+      institution: State Key Laboratory of Industrial Control Technology
+      year: 2026.01-2026.12
       description:
+        - Principal Investigator.
+    - title: Open Research Project of the Yunnan Key Laboratory of Low-Light Night Vision Detection and Intelligent Visual Navigation (under establishment)
+      institution: Yunnan Province
+      year: 2026.01-2027.12
+      description:
+        - Principal Investigator.
+    - title: National Natural Science Foundation of China General Program
+      institution: Project No. 62173296
+      year: 2022.01-2025.12
+      description:
+        - Participant.
+    - title: UK Research and Innovation Project
+      institution: Extreme-scale Precision Imaging in Radio Astronomy (EIRA, EP/T028270/1)
+      year:
+      description:
+        - Participant.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Research Directions
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Quantum Machine Learning
+      items:
+        - '<a href="/publications/#chen2026hamiltonian">Hamiltonian-induced error-channel control for Lyapunov quantum state transfer</a>. Y. Chen, X. Lang, and J. Wu. <em>Physical Review A</em>, 2026.'
+        - Quantum-inspired neural networks, tensor-network models, and quantum-state analysis.
+        - Multimodal learning, language modeling, and efficient machine learning methods.
+    - title: Single-Photon and Computational Imaging
+      items:
+        - '<a href="/publications/#chen2026sensor">Sensor-aware physical modelling for deep learning-based single-photon imaging</a>. Y. Chen, X. Lang, and Y. Pan. <em>Optics Express</em>, 2026.'
+        - Photon-efficient 3D sensing and self-supervised image reconstruction.
+        - Magnetic resonance imaging and image-to-point-cloud registration.
+    - title: Industrial Signal Processing
+      items:
+        - '<a href="/publications/#lang2026visual">Visual-frequency bimodal fusion networks for oscillation detection and quantification in industrial control loops</a>. X. Lang, L. Yang, J. Wu, Y. Chen, J. Na, and C. Lei. <em>Engineering Applications of Artificial Intelligence</em>, 2026.'
+        - Industrial oscillation detection, root-cause diagnosis, and control-loop performance.
+        - Soft sensing, remaining useful life prediction, and learning-based control.
+
+- title: Representative Publications
+  type: nested_list
+  contents:
+    - title: Quantum Machine Learning
+      items:
+        - '<a href="/publications/#yan2026quantum">Quantum-inspired neural networks with stochastic dynamics for multimodal sentiment analysis and sarcasm detection</a>. K. Yan, P. Lai, X. Zheng, Y. Yang, Y. Ren, T. Badarch, and Y. Chen. <em>Engineering Applications of Artificial Intelligence</em>, 2026.'
+        - '<a href="/publications/#yan2025quantum">Quantum-inspired multimodal fusion with Lindblad master equation for sentiment analysis</a>. K. Yan, P. Lai, Y. Yang, Y. Ren, T. Badarch, Y. Chen, and X. Zheng. <em>Neurocomputing</em>, 2025.'
+        - '<a href="/publications/#chen2021quantum">Quantum language model with entanglement embedding for question answering</a>. Y. Chen, Y. Pan, and D. Dong. <em>IEEE Transactions on Cybernetics</em>, 2023.'
+    - title: Single-Photon and Computational Imaging
+      items:
+        - '<a href="/publications/#chen2025r2d2">The R2D2 deep neural network series for scalable non-Cartesian magnetic resonance imaging</a>. Y. Chen, A. Aghabiglou, S. Chen, M. Torki, C. Tang, R. B. van Heeswijk, and Y. Wiaux. arXiv preprint, 2025.'
+        - '<a href="/publications/#chen2023compact">A compact upconversion single-photon imager for full-range and accurate 3-D imaging</a>. Y. Chen, C. Jiang, Y. Liu, H. Su, X. Hu, and Y. Pan. <em>IEEE Transactions on Instrumentation and Measurement</em>, 2023.'
+        - '<a href="/publications/#chen2022deep">Deep domain adversarial adaptation for photon-efficient imaging</a>. Y. Chen, G. Yao, Y. Liu, H. Su, X. Hu, and Y. Pan. <em>Physical Review Applied</em>, 2022.'
+    - title: Industrial Signal Processing
+      items:
+        - '<a href="/publications/#yang2025oscillation">Oscillation detection for industrial process control loops based on transformer encoder</a>. L. Yang, L. Xun, Y. Chen, J. Wu, and C. Yang. <em>China Automation Congress</em>, 2025.'
+        - '<a href="/publications/#gong2025root">Root cause diagnosis of plant-wide oscillations using partial cross mapping</a>. Z. Gong, Y. Chen, L. Xun, J. Wu, and Y. Liu. <em>China Automation Congress</em>, 2025.'
+        - '<a href="/publications/#xu2025pid">Performance optimization of industrial PID control loops using deep reinforcement learning</a>. J. Xu, L. Xun, J. Wu, Y. Chen, and J. Na. <em>China Automation Congress</em>, 2025.'
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2025
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - IEEE TIM Outstanding Reviewer, IEEE Instrumentation and Measurement Society.
+    - year:
+      items:
+        - IOP Trusted Reviewer, Institute of Physics, UK.
+    - year: 2022
+      items:
+        - Phoenix Scholarship of Zhejiang University.
+        - Outstanding Graduate Student of Zhejiang University.
+    - year: 2021
+      items:
+        - Outstanding Doctoral Position Funding of Zhejiang University.
+    - year: 2019
+      items:
+        - Outstanding Graduate Student of Zhejiang University.

@@ -1,0 +1,54 @@
+.research-directions {
+  margin: 2rem 0;
+
+  .research-direction {
+    border-top: 1px solid var(--global-divider-color);
+    padding: 0.85rem 0;
+
+    &:last-child {
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    summary {
+      color: var(--global-text-color);
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 600;
+      list-style-position: inside;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--global-theme-color);
+      }
+    }
+
+    > p {
+      margin: 0.75rem 0 1rem;
+    }
+  }
+
+  .research-direction-links {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.35rem;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+  }
+}

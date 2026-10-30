@@ -7,14 +7,15 @@ title: Yiwei Chen (陈逸威) # the website title (if blank, full name will be u
 first_name: Yiwei
 middle_name:
 last_name: Chen
-email: ewell@zju.edu.cn
+email: yiweichen@ynu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Academic homepage of Yiwei Chen, Associate Professor at Yunnan-Malaya Institute,
+  Yunnan University, focused on intelligent imaging, industrial signal processing,
+  and quantum machine learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: intelligent imaging, industrial signal processing, computational imaging, single-photon imaging, magnetic resonance imaging, quantum machine learning, academic homepage
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -57,7 +58,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 800px
+max_width: 1040px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -118,7 +119,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -268,8 +269,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Chen]
+  first_name: [Yiwei, Y.]
 
   style: apa
   locale: en
@@ -322,6 +323,7 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    topic,
     supp,
     video,
     website,
