@@ -113,6 +113,25 @@
         - '<a href="/publications/#gong2025root">Root cause diagnosis of plant-wide oscillations using partial cross mapping</a>. Z. Gong, Y. Chen, L. Xun, J. Wu, and Y. Liu. <em>China Automation Congress</em>, 2025.'
         - '<a href="/publications/#xu2025pid">Performance optimization of industrial PID control loops using deep reinforcement learning</a>. J. Xu, L. Xun, J. Wu, Y. Chen, and J. Na. <em>China Automation Congress</em>, 2025.'
 
+- title: Peer Review Service
+  type: nested_list
+  contents:
+    - title: IEEE Transactions
+      items:
+        - IEEE Trans. Neural Netw. Learn. Syst.; IEEE Trans. Image Process.; IEEE Trans. Comput. Imaging; IEEE Trans. Circuits Syst. Video Technol.
+        - IEEE Trans. Syst. Man Cybern. Syst.; IEEE Trans. Cybern.; IEEE Trans. Instrum. Meas.
+    - title: Optics and Physics
+      items:
+        - Opt. Express; Opt. Lett.; Appl. Opt.; J. Opt. Soc. Am. A; Quantum Sci. Technol.; Quantum Mach. Intell.
+        - Phys. Scr.; Meas. Sci. Technol.; Mach. Learn. Sci. Technol.; J. Phys. Commun.
+    - title: Imaging, AI, and Engineering
+      items:
+        - Pattern Recognit.; ISPRS J. Photogramm. Remote Sens.; Biomed. Signal Process. Control; Neural Netw.; Appl. Soft Comput.
+        - Eng. Appl. Artif. Intell.; Expert Syst. Appl.; Comput. Electr. Eng.; Nat. Lang. Process. J.; Mach. Learn. Health; Eng. Res. Express; SN Comput. Sci.
+    - title: Verification
+      items:
+        - '<a href="https://orcid.org/0000-0001-5739-2429">Public ORCID peer-review record</a> (journal titles matched by ISSN).'
+
 - title: Honors and Awards
   type: time_table
   contents:
