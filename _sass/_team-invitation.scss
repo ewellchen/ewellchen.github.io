@@ -13,6 +13,47 @@
   }
 }
 
+.about-intro {
+  p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .research-accent {
+    font-weight: 700;
+  }
+
+  .research-accent-quantum {
+    color: #8a3d7a;
+  }
+
+  .research-accent-imaging {
+    color: #087c82;
+  }
+
+  .research-accent-industrial {
+    color: #a34f35;
+  }
+
+  .advisor-link {
+    font-weight: 700;
+  }
+}
+
+html[data-theme="dark"] .about-intro {
+  .research-accent-quantum {
+    color: #e8a2d5;
+  }
+
+  .research-accent-imaging {
+    color: #78d4d1;
+  }
+
+  .research-accent-industrial {
+    color: #f1ad8b;
+  }
+}
+
 .post .profile .more-info {
   font-family: inherit;
   font-size: 0.88rem;

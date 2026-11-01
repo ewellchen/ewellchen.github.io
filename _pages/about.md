@@ -50,8 +50,10 @@ latest_posts:
 </a>
 </div>
 {% endraw %}
-I am an **Associate Professor** and **Master's Supervisor** at Yunnan University. My group develops data-efficient methods for **quantum machine learning**, **single-photon and computational imaging**, and **industrial signal processing**.
+<div class="about-intro">
+  <p>I am an <strong>Associate Professor</strong> and <strong>Master's Supervisor</strong> at Yunnan University. My group develops data-efficient methods for <strong class="research-accent research-accent-quantum">quantum machine learning</strong>, <strong class="research-accent research-accent-imaging">single-photon and computational imaging</strong>, and <strong class="research-accent research-accent-industrial">industrial signal processing</strong>.</p>
 
-I received my B.Eng. (2018) and Ph.D. in Control Science and Engineering (2023) from Zhejiang University, then worked on computational imaging as a postdoctoral researcher at Heriot-Watt University in Edinburgh. I lead projects supported by the NSFC and Yunnan Province; my [CV]({{ '/cv/' | relative_url }}) provides more detail.
+  <p>I received my B.Eng. (2018) and Ph.D. in Control Science and Engineering (2023) from Zhejiang University. My Ph.D. supervisor was <a class="advisor-link" href="https://person.zju.edu.cn/ypan" target="_blank" rel="noopener noreferrer">Prof. Yu Pan</a>. I then worked on computational imaging as a postdoctoral researcher at Heriot-Watt University in Edinburgh. I lead projects supported by the NSFC and Yunnan Province; my <a href="{{ '/cv/' | relative_url }}">CV</a> provides more detail.</p>
 
-My work has appeared in *Physical Review A*, *Optics Express*, *IEEE Transactions on Cybernetics*, *IEEE Transactions on Instrumentation and Measurement*, and other journals and conferences. I received the IOP Trusted Reviewer certification and the 2025 IEEE TIM Outstanding Reviewer honor.
+  <p>My work has appeared in <em>Physical Review A</em>, <em>Optics Express</em>, <em>IEEE Transactions on Cybernetics</em>, <em>IEEE Transactions on Instrumentation and Measurement</em>, and other journals and conferences. I received the IOP Trusted Reviewer certification and the 2025 IEEE TIM Outstanding Reviewer honor.</p>
+</div>
